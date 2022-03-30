@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{RSpec extension that spins up ganache server for tests and adds a few handy methods. Expected to be used with ethereum.rb}
   spec.homepage      = "https://github.com/TheSmartnik/rspec-eth"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
-
+  spec.licenses      = ['MIT']
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/TheSmartnik/rspec-eth"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
