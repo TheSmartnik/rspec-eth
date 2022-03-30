@@ -24,7 +24,7 @@ module RSpec
 
       def contract_path
         @contract_path ||= begin
-          filename = self.class.to_s.split("::").last.underscore
+          filename = self.class.metadata[:file_path].split('/').last.gsub('_spec', '').gsub('.rb', '')
           File.join(RSpec::Eth::Config.contracts_path, "#{filename}.sol")
         end
       end

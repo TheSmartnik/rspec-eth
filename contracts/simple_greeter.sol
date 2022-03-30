@@ -13,6 +13,7 @@ contract SimpleGreeter {
   }
 
   function setSuperGreeting(string calldata greeting) external {
+    require(msg.sender == owner, "Only owner");
     _greeting = greeting;
   }
 }
