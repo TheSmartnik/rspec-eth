@@ -2,7 +2,7 @@ require_relative 'lib/rspec/eth/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-eth"
-  spec.version       = Rspec::Eth::VERSION
+  spec.version       = RSpec::Eth::VERSION
   spec.authors       = ["TheSmartnik"]
   spec.email         = ["misharinn@gmail.com"]
 
@@ -23,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'ethereum.rb'
 end
