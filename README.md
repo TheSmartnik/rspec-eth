@@ -89,5 +89,5 @@ After checking out the repo, run `bundle install` to install dependencies. Then,
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rspec-eth.
+Bug reports and pull requests are welcome on GitHub at https://github.com/TheSmartnik/rspec-eth.
 
